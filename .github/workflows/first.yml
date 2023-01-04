@@ -16,4 +16,4 @@ jobs:
       - name: step_one
         uses: actions/checkout@v2
       - name: step_two  
-        run: "Get ChildItem Env: | Sort-Object Name"
+        run: "Get-ChildItem Env: | Sort-Object Name"
